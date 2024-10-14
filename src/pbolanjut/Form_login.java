@@ -6,7 +6,7 @@ package pbolanjut;
 
 import java.awt.event.KeyEvent;
 import java.sql.Connection;
-import java.sql.Statement;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import javax.swing.JOptionPane;
 import java.util.Arrays;
@@ -268,9 +268,10 @@ public class Form_login extends javax.swing.JFrame {
             String passDB = null;
             int notFound = 0;
             
-            String query = "SELECT * FROM mahasiswa WHERE email = '"+email_user+"'";
-            Statement st = conn.createStatement(); // Membuat Statement untuk mengeksekusi query
-            ResultSet rs = st.executeQuery(query); // Menjalankan query dan menyimpan hasilnya dalam ResultSet
+            String query = "SELECT * FROM mahasiswa WHERE email = ? ";
+            PreparedStatement pst = conn.prepareStatement(query); // Membuat Statement untuk mengeksekusi query
+            pst.setString(1, "email");
+            ResultSet rs = pst.executeQuery(query); // Menjalankan query dan menyimpan hasilnya dalam ResultSet
             
             while(rs.next()) {
                 username = rs.getString("username");
@@ -291,7 +292,6 @@ public class Form_login extends javax.swing.JFrame {
                 foto_login.requestFocusInWindow();
             }
             
-            st.close();
             rs.close();
             
         } catch(Exception e){
