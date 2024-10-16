@@ -262,19 +262,18 @@ public class Form_login extends javax.swing.JFrame {
     private void button_loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_loginActionPerformed
         
         try {
-            String email_user = email.getText();
             char[] pass = password.getPassword();
             String username = null;
             String passDB = null;
             int notFound = 0;
             
-            String query = "SELECT * FROM mahasiswa WHERE email = ? ";
+            String query = "SELECT * FROM users WHERE email = ? ";
             PreparedStatement pst = conn.prepareStatement(query); // Membuat Statement untuk mengeksekusi query
-            pst.setString(1, "email");
-            ResultSet rs = pst.executeQuery(query); // Menjalankan query dan menyimpan hasilnya dalam ResultSet
+            pst.setString(1, email.getText());
+            ResultSet rs = pst.executeQuery(); // Menjalankan query dan menyimpan hasilnya dalam ResultSet
             
             while(rs.next()) {
-                username = rs.getString("username");
+                username = rs.getString("email");
                 passDB = rs.getString("password");
                 notFound = 1;
             }
