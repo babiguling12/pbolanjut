@@ -357,7 +357,7 @@ public class Form_register extends javax.swing.JFrame {
             String email = jemail.getText();
             String password = jpassword.getText();
         
-            String query = "INSERT INTO mahasiswa(username,email,password) VALUES(?, ?, ?)";
+            String query = "INSERT INTO users(username,email,password) VALUES(?, ?, ?)";
             PreparedStatement pst = conn.prepareStatement(query);
             pst.setString(1, username);
             pst.setString(2, email);

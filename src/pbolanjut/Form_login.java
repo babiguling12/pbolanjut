@@ -273,7 +273,7 @@ public class Form_login extends javax.swing.JFrame {
             ResultSet rs = pst.executeQuery(); // Menjalankan query dan menyimpan hasilnya dalam ResultSet
             
             while(rs.next()) {
-                username = rs.getString("email");
+                username = rs.getString("username");
                 passDB = rs.getString("password");
                 notFound = 1;
             }
