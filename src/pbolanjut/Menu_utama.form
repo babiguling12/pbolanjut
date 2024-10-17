@@ -23,7 +23,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,32,0,0,3,105"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-79,0,0,3,-6"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
@@ -46,17 +46,18 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                   <Component id="pnblogo" min="-2" pref="107" max="-2" attributes="0"/>
-                  <EmptySpace pref="152" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="name_website" min="-2" pref="393" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="btn_minimize" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="btn_maximize" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                          <Component id="name_website" min="-2" pref="393" max="-2" attributes="0"/>
+                          <EmptySpace pref="278" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -65,18 +66,14 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pnblogo" min="-2" pref="108" max="-2" attributes="0"/>
+                      <Component id="btn_maximize" min="-2" max="-2" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="btn_minimize" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                           <Component id="name_website" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="pnblogo" min="-2" pref="108" max="-2" attributes="0"/>
-                              <Component id="btn_maximize" min="-2" max="-2" attributes="0"/>
-                              <Component id="btn_minimize" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
                       </Group>
                   </Group>
                   <EmptySpace pref="21" max="32767" attributes="0"/>
@@ -148,7 +145,7 @@
               <Group type="102" attributes="0">
                   <EmptySpace pref="43" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="btn_matkul" min="-2" pref="151" max="-2" attributes="0"/>
+                      <Component id="btn_mahasiswa" min="-2" pref="151" max="-2" attributes="0"/>
                       <Component id="btn_profil" min="-2" pref="151" max="-2" attributes="0"/>
                       <Component id="btn_nilai" min="-2" pref="151" max="-2" attributes="0"/>
                   </Group>
@@ -166,13 +163,13 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="52" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                   <Component id="btn_profil" min="-2" pref="56" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Component id="btn_nilai" min="-2" pref="56" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                  <Component id="btn_matkul" min="-2" pref="56" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="btn_mahasiswa" min="-2" pref="56" max="-2" attributes="0"/>
+                  <EmptySpace pref="225" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="btn_exit" min="-2" pref="37" max="-2" attributes="0"/>
                       <Component id="btn_logout" min="-2" pref="37" max="-2" attributes="0"/>
@@ -223,13 +220,13 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_nilaiActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btn_matkul">
+        <Component class="javax.swing.JButton" name="btn_mahasiswa">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Microsoft JhengHei" size="18" style="1"/>
+              <Font name="Microsoft JhengHei" size="14" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>
@@ -237,10 +234,10 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/pbolanjut/img/open-book.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Matkul"/>
+            <Property name="text" type="java.lang.String" value="Mahasiswa"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_matkulActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_mahasiswaActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_logout">
@@ -291,7 +288,7 @@
                   <Component id="pn_nilai" alignment="1" max="32767" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
-                  <Component id="pn_mahasiswa" alignment="1" max="32767" attributes="0"/>
+                  <Component id="pn_mahasiswa" alignment="0" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -302,10 +299,7 @@
                   <Component id="pn_nilai" alignment="0" max="32767" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="pn_mahasiswa" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="pn_mahasiswa" alignment="0" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -323,16 +317,16 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txt_profil" pref="642" max="32767" attributes="0"/>
+                      <Component id="txt_profil" pref="787" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
                       <Component id="txt_profil" min="-2" pref="193" max="-2" attributes="0"/>
-                      <EmptySpace pref="119" max="32767" attributes="0"/>
+                      <EmptySpace pref="214" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -362,19 +356,19 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="224" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="259" max="-2" attributes="0"/>
                       <Component id="txt_nilai" min="-2" pref="221" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+                      <EmptySpace pref="313" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
                       <Component id="txt_nilai" min="-2" pref="86" max="-2" attributes="0"/>
-                      <EmptySpace pref="198" max="32767" attributes="0"/>
+                      <EmptySpace pref="269" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -408,13 +402,12 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="73" max="32767" attributes="0"/>
+                      <EmptySpace pref="36" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel2" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
                           <Component id="jNama" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
                           <Component id="jLabel3" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
                           <Component id="jNim" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
-                          <Component id="jJurusan" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
                           <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jAlamat" alignment="0" min="-2" pref="215" max="-2" attributes="0"/>
                           <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -430,15 +423,16 @@
                               </Group>
                           </Group>
                           <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jJurusan" min="-2" pref="215" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                      <EmptySpace pref="35" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jScrollPane1" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel6" min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jCari" min="-2" pref="166" max="-2" attributes="0"/>
                           </Group>
+                          <Component id="jScrollPane2" alignment="1" min="-2" pref="473" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                   </Group>
@@ -473,8 +467,8 @@
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jJurusan" min="-2" pref="26" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jJurusan" min="-2" pref="32" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jAlamat" min="-2" pref="26" max="-2" attributes="0"/>
@@ -489,7 +483,7 @@
                                   <Component id="btn_hapus" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="30" max="32767" attributes="0"/>
                   </Group>
@@ -497,7 +491,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
               <AuxValues>
                 <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
               </AuxValues>
@@ -507,7 +501,7 @@
                 <Component class="javax.swing.JTable" name="tbl_mahasiswa">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="5" rowCount="5">
+                      <Table columnCount="5" rowCount="4">
                         <Column editable="false" title="id" type="java.lang.Object"/>
                         <Column editable="true" title="Nama" type="java.lang.Object"/>
                         <Column editable="true" title="NIM" type="java.lang.Object"/>
@@ -515,7 +509,7 @@
                         <Column editable="true" title="Alamat" type="java.lang.Object"/>
                       </Table>
                     </Property>
-                    <Property name="rowMargin" type="int" value="3"/>
+                    <Property name="rowHeight" type="int" value="30"/>
                   </Properties>
                   <Events>
                     <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tbl_mahasiswaMouseClicked"/>
@@ -580,18 +574,6 @@
                   <Color blue="0" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Jurusan"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JTextField" name="jJurusan">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                    <LineBorder/>
-                  </Border>
-                </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="jAlamat">
@@ -660,9 +642,6 @@
             </Component>
             <Component class="javax.swing.JTextField" name="jCari">
               <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="12" style="3"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#xa;"/>
               </Properties>
               <Events>
@@ -681,9 +660,24 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="0" red="0" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Cari"/>
+                <Property name="text" type="java.lang.String" value="Cari :"/>
                 <Property name="horizontalTextPosition" type="int" value="4"/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jJurusan">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Teknologi Informasi"/>
+                    <StringItem index="1" value="Teknik Perkapalan"/>
+                    <StringItem index="2" value="Teknik Mesin"/>
+                    <StringItem index="3" value="Teknik Kedokteran"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
